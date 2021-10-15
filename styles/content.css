@@ -1,0 +1,151 @@
+/****************************************   General     *******************************************/
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+i {
+    padding: .05in;
+    color: var(--secondaryColor);
+}
+
+.border-bottom {
+    border-bottom: 2px var(--secondaryColor) solid;
+}
+
+.border-left {
+    border-left: 2px var(--secondaryColor) solid;
+    padding: 0 8px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/************************************   Header Content     ****************************************/
+/**************  Title *************/
+#name {
+    margin: 0 .5in 0 .1in;
+    line-height: .75in;
+}
+
+#role {
+    margin: 0 .5in 0 .15in;
+    line-height: .35in;
+}
+
+/************  Contact *************/
+#contact {
+    background-color: var(--primaryColor);
+}
+
+#contact ul {
+    padding-left: .15in;
+    padding-right: .25in;
+}
+
+#contact li {
+    list-style: none;
+    color: white;
+    padding: .05in;
+}
+
+#contact ul {
+    margin-top: .15in;
+    margin-left: .1in;
+}
+
+/************************************   Details Content     ***************************************/
+.details-body {
+    margin: .05in .05in 0;
+}
+
+/************ Profile **************/
+.skill-meter {
+    float: right;
+    width: 1.2in;
+}
+
+#skill-meter-title {
+    width: 1.25in;
+}
+
+#skill-meter > * {
+    line-height: 1.4;
+}
+
+.skill-col {
+    border-top: black 1px solid;
+    width: .4in;
+    text-align: end;
+}
+
+#skills li {
+    list-style: none;
+    line-height: .175in;
+}
+
+.skill-measure {
+    height: .095in;
+    align-content: center;
+}
+
+.skill-bar {
+    background-color: var(--primaryColor);
+    width: 100%;
+    height: .07in;
+    margin-top: .07in;
+}
+
+#Java, #CSharp, #MSSQL, #MSSQL, #DB2, #HTML, #Angular, #React, #Typescript, #MySQL {
+    width: 1.2in;
+}
+
+#Python, #PHP, #CPP, #ILE, #Lua {
+    width: .8in;
+}
+
+#MDB {
+    width: .4in;
+}
+
+#additional-knowledge .col {
+    width: 1.25in;
+}
+
+/************ Experience ************/
+#jobs {
+    padding-top: .1in;
+}
+
+.time-span {
+    width: .75in;
+    height: 100%;
+}
+
+.time-span i {
+    float: right;
+    margin-right: -.07in;
+    margin-top: -3px;
+    padding: 3px 0;
+}
+
+.job-body {
+    width: 3.5in;
+    padding-left: .2in;
+    padding-bottom: .05in;
+    border-left: var(--secondaryColor) 2px solid;
+}
+.job-body.end {
+    padding-bottom: 0;
+}
+.job-body ul {
+    margin-left: .15in;
+    margin-top: .05in;
+}
+
+.job-body li {
+    padding: .05in 0;
+    list-style: disc;
+}

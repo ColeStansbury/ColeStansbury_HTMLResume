@@ -1,0 +1,57 @@
+@import "./theme.css";
+body{
+    padding: 0;
+    margin: 0;
+}
+main {
+    margin: auto;
+    width: 8in;
+    height: 10.5in;
+    border: var(--primaryColor) .25in solid;
+}
+
+.col {
+    float: left;
+    height: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#header {
+    height: 1.75in;
+    margin-left: -1px;
+    margin-top: .25in;
+    border-left: var(--primaryColor) .75in solid;
+}
+
+#title {
+    width: 3.75in;
+}
+
+#contact {
+    width: 3.5in;
+    margin-left: 1px;
+}
+
+#details {
+    margin-top: .5in;
+    height: 7.5in;
+}
+
+#profile {
+    width: 2.5in;
+    padding: .25in;
+    background-color: var(--infoColor);
+}
+#experience {
+    width: 4.5in;
+    padding: 0 .25in;
+}
+.skill-measure-title-space{
+    height: 18px;
+    width: 2.1in;
+}

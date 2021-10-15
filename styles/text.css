@@ -1,0 +1,74 @@
+@import "./theme.css";
+
+main {
+    font-size: 11px;
+    color: var(--primaryColor);
+    font-family: var(--primaryFontFamily);
+}
+
+h1 {
+    font-family: var(--primaryFontFamily);
+    font-size: 70px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: var(--primaryFontFamily);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#experience h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-family: var(--secondaryFontFamilyBolder);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h4 {
+    font-family: var(--secondaryFontFamily);
+    font-size: 18px;
+}
+
+h5 {
+    font-family: var(--secondaryFontFamilyBolder);
+    font-size: 14px;
+}
+
+h6 {
+    font-family: var(--secondaryFontFamilyBold);
+    font-size: 12px;
+}
+
+.small-label {
+    font-family: var(--secondaryFontFamilyBold);
+    font-size: 10px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+li {
+    font-family: var(--secondaryFontFamily);
+    font-size: 11px;
+}
+
+#contact li {
+    font-size: 14px;
+}
+
+.description {
+    font-family: var(--secondaryFontFamily);
+    font-size: 12px;
+}
+
+.pipe {
+    color: var(--secondaryColor);
+}
+li::marker{
+    color: var(--secondaryColor);
+}
